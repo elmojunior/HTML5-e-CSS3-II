@@ -116,7 +116,8 @@ header {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;
     color: #D5447E;
-        font-size: 400%;
+    font-size: 400%;
+    color: rgba(255, 127, 127, 0.5);
 }
 .eficiencia {
     top: 50%;
