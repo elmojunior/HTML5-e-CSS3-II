@@ -279,9 +279,9 @@ header {
        -moz-transform-origin: 0 0;
             transform-origin: 0 0;
 
-    -webkit-transform: translate(6.5754em, -2.4749em) rotate(45deg);
-       -moz-transform: translate(6.5754em, -2.4749em) rotate(45deg);
-            transform: translate(6.5754em, -2.4749em) rotate(45deg);
+    -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+       -moz-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+            transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
 }
 body{
     -webkit-perspective: 6px;
