@@ -302,6 +302,7 @@ header {
 
     animation: aparece 0.5s;
     animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 body{
     -webkit-perspective: 6px;
