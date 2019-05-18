@@ -9,6 +9,10 @@
     transition-delay: 0s, 1s;
 }
 
+.citacao-bio:hover, .citacao-bio:focus {
+    transition-delay: 0s, 1s;
+}
+
 .citacao-bio::before {
     content: '“';
     position: absolute;
