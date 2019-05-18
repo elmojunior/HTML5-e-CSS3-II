@@ -25,6 +25,21 @@
     font-size: 4em;
     transform: skew(-10deg) rotate(-5deg);
     display: inline-block;
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+.saudacao:hover em {
+    animation-play-state: paused;
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
 }
 .botao-index {
     font-size: 1.25em;
@@ -36,6 +51,15 @@
     margin: 2em auto;
     display: block;
     text-align: center;
+}
+.botao-index {
+    text-decoration: none;
+    transition: .5s;
+}
+.botao-index:focus, .botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
 }
 .secao-inicio {
     padding: 2em;
@@ -142,6 +166,14 @@ header {
     font-weight: bold;
     font-size: 400%;
     color: rgba(255, 127, 127, 0.5);
+    -webkit-animation: aparece 2s;
+    animation: aparece 2s;
+}
+@keyframes aparece {
+    0% {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
 .eficiencia {
     top: 50%;
@@ -282,6 +314,10 @@ header {
     -webkit-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
        -moz-transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
             transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 body{
     -webkit-perspective: 6px;
