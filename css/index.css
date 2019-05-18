@@ -151,6 +151,14 @@ header {
     font-weight: bold;
     font-size: 400%;
     color: rgba(255, 127, 127, 0.5);
+    -webkit-animation: aparece 2s;
+    animation: aparece 2s;
+}
+@keyframes aparece {
+    0% {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
 .eficiencia {
     top: 50%;
