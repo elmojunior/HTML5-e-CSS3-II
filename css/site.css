@@ -44,6 +44,10 @@ main p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
+    float: right;
+    position: relative;
+    top: 300px;
+    width: calc(0.9 * 300px);
 }
 
 .navegacao-site a {
@@ -160,6 +164,7 @@ main {
     width: 80%;
     float: left;
     padding-bottom: 80px;
+    width: calc(100% - 0.9 * 300px);
 }
 
 .minha-foto,
@@ -167,13 +172,6 @@ main {
     border-left: 10px solid black;
     border-bottom: 10px solid black;
     box-sizing: border-box;
-}
-
-.navegacao-site {
-    width: 20%;
-    float: right;
-    position: relative;
-    top: 300px;
 }
 
 .minha-foto {
