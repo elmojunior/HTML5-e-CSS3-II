@@ -52,6 +52,10 @@ main p {
     text-transform: lowercase;
 }
 
+.navegacao-site a:hover, .navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
+}
+
 .navegacao-site h1 {
     font-size: 30px;
     margin-bottom: 25px;

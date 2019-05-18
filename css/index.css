@@ -118,6 +118,9 @@ main {
     padding-bottom: 0;
     float: none;
 }
+main a:hover, main a:focus, footer a:hover, footer a:focus {
+    color: red;
+}
 header {
     position: relative;
 }
