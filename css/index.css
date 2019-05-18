@@ -25,6 +25,18 @@
     font-size: 4em;
     transform: skew(-10deg) rotate(-5deg);
     display: inline-block;
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
 }
 .botao-index {
     font-size: 1.25em;
