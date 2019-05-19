@@ -327,6 +327,8 @@ body{
     -webkit-perspective-origin: 50% 160px;
        -moz-perspective-origin: 50% 160px;
             perspective-origin: 50% 160px;
+
+    display: block;        
 }
 html,body{
   height: 100%;

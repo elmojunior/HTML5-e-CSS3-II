@@ -3,6 +3,9 @@ body {
     background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1,
@@ -44,10 +47,8 @@ main p {
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
-    float: right;
-    position: relative;
-    top: 300px;
     width: calc(0.9 * 300px);
+    padding-top: calc(300px + 1em);
 }
 
 .navegacao-site a {
@@ -162,15 +163,14 @@ em {
 
 main {
     width: 80%;
-    float: left;
     padding-bottom: 80px;
     width: calc(100% - 0.9 * 300px);
+    flex-grow: 1;
 }
 
 .minha-foto,
 .navegacao-site {
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
+    border-left: .5em solid black;
     box-sizing: border-box;
 }
 
@@ -179,4 +179,5 @@ main {
     top: 0;
     right: 0;
     height: 300px;
+    border-bottom: .5em solid black;
 }
